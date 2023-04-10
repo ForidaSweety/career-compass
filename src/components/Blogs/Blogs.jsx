@@ -16,7 +16,22 @@ const Blogs = () => {
 
                     Custom hooks are useful when multiple components have similar logic or state management requirements. By creating a custom hook, we can encapsulate this logic in one place and reuse it in multiple components without duplicating code.</p>
             </div>
-            
+            <div className='mb-6'>
+                <h3 className='font-semibold'>3. What is useRef?</h3>
+                <p>Ans: useRef is a hook in React that returns a mutable ref object whose .current property is initialized to the initial value.
+
+                    Refs provide a way to access DOM nodes or other React elements that have been rendered in a component. Unlike state or props, changes to a ref value do not trigger a component re-render.The useRef hook can be used for various purposes such as:
+
+                    Storing a reference to a DOM element and accessing its properties and methods.
+                    Storing a value that persists between renders without triggering a re-render.
+                    Storing a reference to a child component to access its methods or properties.</p>
+            </div>
+            <div>
+                <h3 className='font-semibold'>4. What is useMemo?</h3>
+                <p>Ans: useMemo is a hook in React that allows you to memoize a function or a value so that it only re-computes when one of its dependencies changes.
+
+                    When you have a function that is computationally expensive or returns a value that is expensive to compute, you can use useMemo to memoize the result of the function or the value so that it is only re-computed when necessary. This can improve the performance of your application, especially when dealing with large datasets.</p>
+            </div>
         </div>
      
     );
