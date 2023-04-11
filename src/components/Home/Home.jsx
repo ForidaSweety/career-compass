@@ -5,6 +5,7 @@ import React from 'react';
 const Home = () => {
     return (
        <div>
+        {/* banner section */}
         <section className=' mx-20 my-20 flex flex-col items-center justify-between lg:flex-row mb-10 bg-violet-50 rounded-xl p-20'>
 
         {/* Text Content */}
@@ -29,7 +30,47 @@ const Home = () => {
             </div>
         
         </section>
+        {/* section-2 */}
+        <section className='mt-20'>
+            <div className='flex flex-col items-center justify-center lg:flex-row'>
+            <div className='sm:inline-flex flex-col items-center justify-center mb-8'>
+               <h2 className='mb-6 font-bold text-4xl'>Job Category</h2> 
+               <p>Select from the sections below to learn more about the different job categories and specializations available </p>
+            </div>
+            </div>
+
+            <div className='grid grid-cols-4 justify-items-center mb-8 p-10'>
+        <div className='card bg-slate-100 p-8 rounded-xl'>
+            <img src="/src/assets/accounts 1.png" alt="" />
+            <h3>Account & Finance</h3>
+            <p><small>300 Jobs Available</small> </p>
+        </div>
+        <div className='card bg-slate-100 p-8 rounded-xl'>
+            <img src="/src/assets/business 1.png" alt="" />
+            <h3>Creative Design</h3>
+            <p><small>100+ Jobs Available </small> </p>
+        </div>
+        <div className='card bg-slate-100 p-8 rounded-xl'>
+            <img src="/src/assets/social-media 1.png" alt="" />
+            <h3>Marketing & Sales</h3>
+            <p><small> 150 Jobs Available</small> </p>
+        </div>
+        <div className='card bg-slate-100 p-8 rounded-xl'>
+            <img src="/src/assets/chip 1.png" alt="" />
+            <h3> Engineering Job </h3>
+            <p><small>224 Jobs Available</small> </p>
+        </div>
+            </div>
+        </section>
+    {/* section-3 */}
+        <section className='flex flex-col items-center justify-center mb-7'>
+        <div className='sm:inline-flex flex-col items-center justify-center mb-8'>
+               <h2 className='mb-6 font-bold text-4xl'>Job Details</h2> 
+               <p>Explore thousands of job opportunities with all the information you need. Its your future </p>
+            </div>
+        </section>
        
+        
        </div>
     );
 };
