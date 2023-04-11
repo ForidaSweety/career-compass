@@ -20,6 +20,12 @@ const router = createBrowserRouter([
       {
         path: '/',
         element: <Home></Home>,
+        loader:()=> fetch('companyDetails.json')
+      },
+      {
+        path: '/id',
+        element: <SingleCompDetail></SingleCompDetail>
+        
       },
       {
         path: 'statistics',

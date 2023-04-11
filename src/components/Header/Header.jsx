@@ -12,7 +12,7 @@ const Header = () => {
         <div className='relative flex items-center justify-between'>
       
           <div className='inline-flex items-center'>
-            <span className='ml-2 text-2xl font-bold tracking-wide text-blue-500'>
+            <span className='ml-2 text-2xl font-bold tracking-wide text-purple-500'>
               CareerCompass
             </span>
           </div>   

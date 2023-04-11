@@ -1,0 +1,55 @@
+[ 
+    {
+        "id":1,
+        "img": "/src/assets/google-1-1 1.png",
+        "title": "Technical Database Engineer",
+        "Companyname": "Google LLC",
+        "location": "Dhaka, Bangladesh ",
+        "salary":"100K - 150K" ,
+        "workType":"Remore",
+        "workType1":"Full time",
+        "phone":"01590000999",
+        "email":"info@gmail.com",
+        "address": "Dhanmondi 32,Sukrabad,Dhaka, Bangladesh "
+    },
+    {
+        "id":2,
+        "img": "/src/assets/netflix-4 1.png",
+        "title": "Senior Product Designer",
+        "Companyname": "Netflix ",
+        "location": "Dhaka, Bangladesh",
+        "salary":"130K - 140K" ,
+        "workType":"Onsite",
+        "workType1":"Full time",
+        "phone":"01590000999",
+        "email":"info@gmail.com",
+        "address": "Dhanmondi 32,Sukrabad,Dhaka, Bangladesh "
+    },
+    {
+        "id":3,
+        "img": "/src/assets/tesla-9 1.png ",
+        "title": "Software Engineer",
+        "Companyname": "Tesla",
+        "location": "Dhaka, Bangladesh",
+        "salary":"120K - 130K" ,
+        "workType":"Onsite ",
+        "workType1":"Full time",
+        "phone":"01590000999",
+        "email":"info@gmail.com",
+        "address": "Dhanmondi 32,Sukrabad,Dhaka, Bangladesh "
+    },
+    {
+        "id":4,
+        "img": "/src/assets/Group 10021.png",
+        "title": "Technical  Engineer",
+        "Companyname": "Google LLC",
+        "location": "Dhaka, Bangladesh",
+        "salary":"110K - 120K" ,
+        "workType":"Remore",
+        "workType1":"Onsite",
+        "phone":"01590000999",
+        "email":"info@gmail.com",
+        "address": "Dhanmondi 32,Sukrabad,Dhaka, Bangladesh "
+    }
+    
+]
