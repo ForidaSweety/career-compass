@@ -51,6 +51,7 @@ const Header = () => {
               Blogs
             </NavLink>
           </li>
+          <button className='bg-purple-500 p-2 rounded-full text-white'>Start Applying</button>
         </ul>
         
         <div className='lg:hidden'>
@@ -59,7 +60,7 @@ const Header = () => {
             aria-label='Open Menu'
             title='Open Menu'
             onClick={() => setIsMenuOpen(true)}
-          >
+          > 
             <Bars3BottomRightIcon className='w-5 text-gray-600' />
           </button>
           {isMenuOpen && (
@@ -117,6 +118,7 @@ const Header = () => {
                         Blogs
                       </Link>
                     </li>
+                    <button className='bg-purple-500 p-2 rounded-full text-white'>Start Applying</button>
                   </ul>
                 </nav>
               </div>

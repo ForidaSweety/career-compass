@@ -10,12 +10,15 @@ import Home from './components/Home/Home';
 import Statistics from './components/Statistics/Statistics';
 import AppliedJobs from './components/AppliedJobs/AppliedJobs';
 import Blogs from './components/Blogs/Blogs';
+import SingleCompDetail from './components/SingleCompDetail/SingleCompDetail';
+import NotFound from './components/NotFound/NotFound';
 
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <App></App>,
+  
     children: [
       {
         path: '/',
@@ -23,9 +26,10 @@ const router = createBrowserRouter([
         loader:()=> fetch('companyDetails.json')
       },
       {
-        path: '/id',
-        element: <SingleCompDetail></SingleCompDetail>
-        
+        path: '/detail/:comDetails',
+        element: <SingleCompDetail></SingleCompDetail>,
+       
+
       },
       {
         path: 'statistics',
