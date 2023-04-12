@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <App></App>,
-  
+    errorElement:<NotFound></NotFound>,
     children: [
       {
         path: '/',
@@ -29,7 +29,6 @@ const router = createBrowserRouter([
         path: '/detail/:comDetails',
         element: <SingleCompDetail></SingleCompDetail>,
        
-
       },
       {
         path: 'statistics',
@@ -43,6 +42,7 @@ const router = createBrowserRouter([
         path:'blogs',
         element:<Blogs></Blogs>
       }
+ 
     ]
   }
 ])
