@@ -28,6 +28,11 @@ const router = createBrowserRouter([
       {
         path: '/detail/:comDetails',
         element: <SingleCompDetail></SingleCompDetail>,
+        loader: async({params}) =>{
+          const data = await fetch('/companyDetails.json')
+          const res =await data.json(params)
+           console.log(res);
+        }
        
       },
       {
