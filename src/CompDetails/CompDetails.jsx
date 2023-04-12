@@ -18,9 +18,12 @@ const CompDetails = ({companyDetail}) => {
                 <p className='p-2 border bg-gray-200'>{workType1}</p>
             </div>
             
+            <div className='flex gap-5 mb-6'><p className='flex'><MapPinIcon className="h-6 w-6 text-blue-500" />{location}</p>
+            <p className='flex'><CurrencyDollarIcon className="h-6 w-6 text-blue-500" />Salary:{salary}</p></div>
             
+            <Link to={`/detail/${id}`}><button className='btn rounded-full bg-blue-300 p-3'>View Details</button></Link>
+            </div>
             
-        </div>
         </div>
     );
 };
